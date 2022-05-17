@@ -1,6 +1,6 @@
-import darkCodeTheme from 'prism-react-renderer/themes/dracula'
-import lightCodeTheme from 'prism-react-renderer/themes/github'
-import rehypeExternalLinks from 'rehype-external-links'
+const darkCodeTheme = require('prism-react-renderer/themes/dracula')
+const lightCodeTheme = require('prism-react-renderer/themes/github')
+const rehypeExternalLinks = require('rehype-external-links')
 
 const config = {
   title: 'My Website',
