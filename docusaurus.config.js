@@ -19,7 +19,7 @@ const config = {
           id: 'react-native',
           path: './src/content',
           routeBasePath: '/',
-          sidebarPath: require.resolve('../sidebars.js'),
+          sidebarPath: require.resolve('./sidebars.js'),
           editUrl:
             'https://github.com/samrith-s/docusaurus-build-error-reproduction/tree/main/docs/',
         },
