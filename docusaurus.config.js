@@ -1,6 +1,5 @@
 const darkCodeTheme = require('prism-react-renderer/themes/dracula')
 const lightCodeTheme = require('prism-react-renderer/themes/github')
-const rehypeExternalLinks = require('rehype-external-links')
 
 const config = {
   title: 'My Website',
@@ -22,8 +21,7 @@ const config = {
           routeBasePath: '/',
           sidebarPath: require.resolve('../sidebars.js'),
           editUrl:
-            'https://github.com/samrith-s/my-website/tree/main/docs/',
-          rehypePlugins: [rehypeExternalLinks],
+            'https://github.com/samrith-s/docusaurus-build-error-reproduction/tree/main/docs/',
         },
         theme: {
           customCss: [require.resolve('../src/css/custom.scss')],
@@ -47,7 +45,7 @@ const config = {
       title: 'My Website',
       items: [
         {
-          href: 'https://github.com/samrith-s/my-website',
+          href: 'https://github.com/samrith-s/docusaurus-build-error-reproduction',
           label: 'GitHub',
           position: 'right',
         },
