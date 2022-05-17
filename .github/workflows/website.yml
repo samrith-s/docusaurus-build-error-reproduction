@@ -16,7 +16,7 @@ jobs:
           node-version: 14.x
           cache: yarn
       - name: Build docs
-        working-directory: .
+        working-directory: docs
         run: |
           yarn install --frozen-lockfile --prefer-offline
           yarn build
