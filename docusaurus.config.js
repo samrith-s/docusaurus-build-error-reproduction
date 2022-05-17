@@ -24,7 +24,7 @@ const config = {
             'https://github.com/samrith-s/docusaurus-build-error-reproduction/tree/main/docs/',
         },
         theme: {
-          customCss: [require.resolve('../src/css/custom.scss')],
+          customCss: [require.resolve('./src/css/custom.scss')],
         },
       },
     ],
